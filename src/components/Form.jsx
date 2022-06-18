@@ -12,6 +12,7 @@ export const Form = () => {
     });
     async function submit(e) {
         // e.preventDefault();
+        window.location.reload()
         await fetch(url, {
             method: 'POST',
             headers: {
