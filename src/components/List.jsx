@@ -15,7 +15,7 @@ export const List = () => {
         <div className="App">
             <h1>STUDENT LIST</h1>
             <table >
-                <tr>
+                <tr className="header">
                     <td>NAME</td>
                     <td>DEPARTMENT</td>
                     <td>EMAIL</td>
